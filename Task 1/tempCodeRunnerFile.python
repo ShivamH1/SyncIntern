@@ -1,0 +1,15 @@
+import nltk
+import numpy as np
+import random 
+import string
+
+import bs4 as bs
+import requests 
+import re
+
+import warnings
+warnings.filterwarnings = False
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
